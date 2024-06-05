@@ -1,0 +1,112 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+}
+
+/* Form container styles */
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* Signup form styles */
+.signupForm {
+    width: 400px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
+}
+
+.signupForm h4,
+.signupForm small {
+    text-align: center;
+}
+
+.signupForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signupForm button:hover {
+    background-color: #0056b3;
+}
+
+.signupForm .error {
+    color: red;
+    font-size: 14px;
+}
+
+.loginError {
+    text-align: center !important;
+    margin: auto;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Vote container styles */
+.voteContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 10px;
+}
+
+.result-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-container {
+    width: inherit;
+}
+
+.result-container h4 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.result-container small {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.voteContainer button {
+    margin: 10px 0;
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.voteContainer button:hover {
+    background-color: #218838;
+}
+
+.voteContainer label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Custom hover effect for success buttons */
+.btn-success:hover {
+    background-color: #dc3545; /* Red color */
+    border-color: #dc3545; /* Red border color */
+    color: #fff; /* Text color for contrast */
+}
